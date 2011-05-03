@@ -2,7 +2,6 @@
 /**
  * 
  * @name  cronTab
- * @package cron
  * @version 1.0
  * used to write to cron tab 
  * Minute/Hour/Day of Month/Month/Day of Week  
