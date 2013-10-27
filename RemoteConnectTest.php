@@ -1,4 +1,7 @@
 <?php
+
+require_once('RemoteConnect.php');
+
 class RemoteConnectTest extends PHPUnit_Framework_TestCase
 {
   public function setUp(){ }
@@ -12,3 +15,4 @@ class RemoteConnectTest extends PHPUnit_Framework_TestCase
     $this->assertTrue($connObj->connectToServer($serverName) !== false);
   }
 }
+?>
