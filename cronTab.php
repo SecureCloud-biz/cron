@@ -122,7 +122,7 @@ class cronTab {
 	*/
 	function listJobs() {
 		$currentjobs =  exec ("crontab -l;");
-		return $currentjobs;			
+		return $currentjobs;		
 	}
 	
 /**
